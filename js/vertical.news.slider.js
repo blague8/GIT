@@ -22,10 +22,7 @@ $(function () {
           indexEl = 1,
                 i = null;
 
-  // the css animation gets added dynamicallly so 
-  // that the news item sizes are measured correctly
-  // (i.e. not in mid-animation)
-  // Also, appending the highlight item to keep HTML clean
+
   newsList.append('<li class="highlight nh-anim"></li>');
   hl = $('.highlight');
   newsListItems.addClass('nh-anim');
@@ -55,8 +52,6 @@ $(function () {
 
   }
 
-  // when the user mouses over a news content item
-  // the auto-switching will stop
   $('.news-content').on('mouseover', function () {
     clearInterval(myTimer);
   });
@@ -82,9 +77,6 @@ $(function () {
         totalHeight += vPadding;
         totalHeight += vMargin;
       }
-
-      // this moves the highlight vertically the distance calculated in the previous loop
-      // and also corrects the height of the highlight to match the current selection
       hl.css({
         top: totalHeight,
         height: $(this).height() + vPadding
