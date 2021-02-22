@@ -12,10 +12,10 @@ function titel (){
 					<div class="row">
 						<div class="demo">
 							<div class="text-effect">
-								<span data-title="W">W</span>
-								<span data-title="i">i</span>
-								<span data-title="n">n</span>
-								<span data-title="t">t</span>
+								<span data-title="S">S</span>
+								<span data-title="o">o</span>
+								<span data-title="m">m</span>
+								<span data-title="m">m</span>
 								<span data-title="e">e</span>
 								<span data-title="r">r</span>
 								<span data-title="s">s</span>
@@ -29,7 +29,6 @@ function titel (){
 								<span data-title=" "> </span>
 								<span data-title="2">2</span>
 								<span data-title="0">0</span>
-								<span data-title="/">/</span>
 								<span data-title="2">2</span>
 								<span data-title="1">1</span>
 							</div>
@@ -605,7 +604,7 @@ function titre (){
 	?>
 	
 		<div class="texte-effect">
-			<span>WINTERSEMESTER 2020/2021</span>
+			<span>SOMMERSEMESTER 2021</span>
 		</div>
 	
 <?php
